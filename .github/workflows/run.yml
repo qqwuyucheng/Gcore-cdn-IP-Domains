@@ -1,4 +1,4 @@
-name: 'cf2dns'
+name: 'cf2dns每4小时执行一次'
 
 on:
   push:
