@@ -1,11 +1,11 @@
-name: 'cf2dns每4小时执行一次'
+name: 'cf2dns每6小时执行一次'
 
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
