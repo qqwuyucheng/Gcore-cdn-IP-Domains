@@ -1,11 +1,11 @@
-name: 'Gcore-cdn-IP-Domains/6小时/1次'
+name: 'Gcore-cdn-IP-Domains/40分钟/1次'
 
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: '30 */6 * * *'
+    - cron: '*/40 * * * *'
   workflow_dispatch:
 
 jobs:
